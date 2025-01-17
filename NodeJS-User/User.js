@@ -3,9 +3,9 @@ const mqtt = require('mqtt');
 // EMQX 公共服务器配置
 const brokerUrl = 'mqtt://broker.emqx.io'; // EMQX 公共 Broker 地址
 const options = {
-  clientId: 'WXX_vm', // 客户端 ID
-  username: 'duang', // 用户名
-  password: 'duangkey', // 密码
+  clientId: 'user_id', // 客户端 ID
+  username: 'user_id', // 用户名
+  password: 'user_password', // 密码
 };
 
 // 订阅的主题

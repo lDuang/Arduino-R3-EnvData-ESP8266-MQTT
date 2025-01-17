@@ -2,15 +2,15 @@
 #include <PubSubClient.h>
 
 // WiFi 配置
-const char* ssid = "Duang"; // WiFi名称
-const char* password = "147258369";       // WiFi密码
+const char* ssid = "ssid"; // WiFi名称
+const char* password = "password";       // WiFi密码
 
 // EMQX 公共服务器配置
 const char* mqtt_server = "broker.emqx.io"; // EMQX 公共 Broker 地址
 const int mqtt_port = 1883; // MQTT 端口
-const char* mqtt_client_id = "ESP8266_ZXX_0"; // 客户端 ID
-const char* mqtt_username = "duang"; // 用户名
-const char* mqtt_password = "duangkey"; // 密码
+const char* mqtt_client_id = "Client_id"; // 客户端 ID
+const char* mqtt_username = "user_id"; // 用户名
+const char* mqtt_password = "user_password"; // 密码
 
 // MQTT 主题
 const char* topic_light = "home/sensor/light";
